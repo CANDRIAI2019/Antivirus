@@ -53,9 +53,8 @@ int main(){
 							for(int b=0;b<n4-M+1;b++){
 								p4="";
 								ind4=b;
-								for(int k4=0;k4<M;k4++){
+								for(int k4=0;k4<M;k4++)
 									p4.push_back(f4[b+k4]);
-								}
 								if(!p4.compare(p3)){
 									virus = p4;
 									goto end;
